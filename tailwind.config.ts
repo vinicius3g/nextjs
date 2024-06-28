@@ -15,11 +15,20 @@ const config: Config = {
       },
     },
     colors: {
-      primary: 'rgba(25, 30, 36,1)'
+      primary: "rgba(25, 30, 36, 1)",
+      secondary: "#2A323C",
+      bar: "#1D232A",
+      "btn-primary": "#7480FF",
+      input: "#1d232a",
     },
     textColor: {
-      default: "#a6adbb"
-    }
+      default: "#a6adbb",
+      "btn-primary": "#050617",
+      subtitle: "#7480FF",
+    },
+    gridTemplateColumns: {
+      "auto-fit-cards": "repeat(auto-fit, minmax(277px, 1fr))",
+    },
   },
   plugins: [],
 };
